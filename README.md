@@ -3,7 +3,7 @@ HamPath3
 
 A library for generating random-looking Hamiltonian paths (aka self-avoiding walks) on a 3D grid. For a 2D grid, see the library this was based on: https://github.com/oysterCrusher/hampath.
 
-![Examples image](examples.png "Examples")
+![Example image](example.png "Example")
 
 Use
 ---

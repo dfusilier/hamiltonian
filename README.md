@@ -11,8 +11,8 @@ Use
 To generate a 2D Hamiltonian path object:
 
 ```javascript
-import { saw3 } from 'saw';
-const path = saw3({ 
+import { saw2 } from 'saw';
+const path = saw2({ 
     width: 12, // Optional. Width of the grid (Default: 4)
     height: 12, // Optional. Height of the grid (Default: 4)
     seed: "12345678" // Optional. Passing a seed will always produce the same pseudorandom result.
@@ -32,7 +32,7 @@ path = {
 To generate a 3D Hamiltonian path object:
 
 ```javascript
-import { saw2 } from 'saw';
+import { saw3 } from 'saw';
 const path = saw3({ 
     width: 12, // Optional. Width of the grid (Default: 4)
     height: 12, // Optional. Height of the grid (Default: 4)

@@ -5,7 +5,8 @@
   "license": "WTFPL",
   "version": "0.0.1",
   "scripts": {
-    "build": "babel src -d lib"
+    "build": "babel src -d lib",
+    "publish": "yarn build && npm publish"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.10",

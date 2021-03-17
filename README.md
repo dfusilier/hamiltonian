@@ -11,10 +11,10 @@ Use
 To generate a 2D Hamiltonian path object:
 
 ```javascript
-import { saw2 } from 'saw';
-const path = saw2({ // No options are required
-    width: 12, // Width of the grid (Default: 4)
-    height: 12, // Height of the grid (Default: 4)
+import { saw3 } from 'saw';
+const path = saw3({ 
+    width: 12, // Optional. Width of the grid (Default: 4)
+    height: 12, // Optional. Height of the grid (Default: 4)
     seed: "12345678" // Optional. Passing a seed will always produce the same pseudorandom result.
 }); 
 ```
@@ -33,10 +33,10 @@ To generate a 3D Hamiltonian path object:
 
 ```javascript
 import { saw2 } from 'saw';
-const path = saw3({ // No options are required
-    width: 12, // Width of the grid (Default: 4)
-    height: 12, // Height of the grid (Default: 4)
-    depth: 12 // Depth of the grid (Default: 4)
+const path = saw3({ 
+    width: 12, // Optional. Width of the grid (Default: 4)
+    height: 12, // Optional. Height of the grid (Default: 4)
+    depth: 12 // Optional. Depth of the grid (Default: 4)
     seed: "12345678" // Optional. Passing a seed will always produce the same pseudorandom result.
 }); 
 ```

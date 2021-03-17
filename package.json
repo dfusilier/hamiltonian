@@ -4,7 +4,13 @@
   "author": "David Fusilier <dfusil2@gmail.com>",
   "license": "WTFPL",
   "version": "0.0.1",
-  "devDependencies": {},
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10"
+  },
   "dependencies": {
     "canvas-sketch-util": "^1.10.0"
   },

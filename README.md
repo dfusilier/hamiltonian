@@ -1,39 +1,18 @@
-HamPath
+HamPath3
 =======
 
-A library for generating random-looking Hamiltonian paths on a grid (aka self-avoiding walks). Based on https://github.com/oysterCrusher/hampath, with added support for 3D grids. 
+A library for generating random-looking Hamiltonian paths (aka self-avoiding walks) on a 3D grid. Based on 2D https://github.com/oysterCrusher/hampath.
 
 ![Examples image](examples.png "Examples")
 
 Use
 ---
 
-To generate a 2D Hamiltonian path object:
-
-```javascript
-import { saw2 } from 'saw';
-const path = saw2({ 
-    width: 12, // Optional. Width of the grid (Default: 4)
-    height: 12, // Optional. Height of the grid (Default: 4)
-    seed: "12345678" // Optional. Passing a seed will always produce the same pseudorandom result.
-}); 
-```
-
-The `path` object generated has the form:
- 
-```javascript
-path = {
-    start : [1, 3], // Coordinates of the start of the path
-    end : [2, 6], // Coordinates of the end of the path
-    data : [[1, 3], ... [2, 6]] // Sequence of nodes along the path
-}
-```
-
 To generate a 3D Hamiltonian path object:
 
 ```javascript
-import { saw3 } from 'saw';
-const path = saw3({ 
+import { hampath3 } from 'hampath3';
+const path = hampath3({ 
     width: 12, // Optional. Width of the grid (Default: 4)
     height: 12, // Optional. Height of the grid (Default: 4)
     depth: 12 // Optional. Depth of the grid (Default: 4)

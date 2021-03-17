@@ -172,7 +172,7 @@ const reverse3 = (path) => {
 * The number of steps has been set to width^2 * height^2 * 0.1 which is generally large enough
 * to create a random looking path. The path is periodically reversed since the step function
 * only moves the start point, allowing both start and end points to be somewhat randomized */
-export const saw3 = ({
+export const hampath3 = ({
   width = 4,
   height = 4,
   depth = 4,

@@ -11,7 +11,7 @@
   "main": "hampath3.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dfusilier/saw.git"
+    "url": "git+https://github.com/dfusilier/hampath3"
   },
   "keywords": [
     "self-avoiding",
@@ -19,7 +19,7 @@
     "saw"
   ],
   "bugs": {
-    "url": "https://github.com/dfusilier/saw/issues"
+    "url": "https://github.com/dfusilier/hampath3/issues"
   },
-  "homepage": "https://github.com/dfusilier/saw#readme"
+  "homepage": "https://github.com/dfusilier/hampath3#readme"
 }

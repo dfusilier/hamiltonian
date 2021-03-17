@@ -1,7 +1,7 @@
 HamPath
 =======
 
-A library for generating random looking Hamiltonian paths on a grid.
+A library for generating random-looking Hamiltonian paths (aka self-avoiding walks) on a 2D or 3D grid. 
 
 ![Examples image](examples.png "Examples")
 
